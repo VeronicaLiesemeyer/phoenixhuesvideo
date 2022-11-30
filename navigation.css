@@ -1,0 +1,117 @@
+.top-bar {
+  display: flex;
+  display: flex;
+  Justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 4px 5px 0.5px #5295ff;
+}
+header ::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav {
+  color: #206EF5;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.banner{
+  width: 10
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.navbar{
+  width: 85%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  width: 75px;
+  cursor: pointer
+}
+.PhoenixHuesCommunity{
+  width: 120px;
+  height: 0;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+ ul li a{
+  text-decoration: none;
+  color: #206EF5;
+  text-transform: uppercase;
+}
+.navbar ul li::after{
+  content:'';
+  height: 3px;
+  width: 0;
+  background: #0058F5;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+.content{
+  width: 100%;
+  position:absolute;
+  top: 50%;
+  transform:translateY(-50%);
+  text-align: center;
+  color: #1C1512;
+}
+.content h1{
+  font-size: 40px;
+  margin-top: 80px;
+}
+.content p{
+  margin: 20px auto;
+  font-weight: 100;
+  line-hight: 25px;
+}
+button{
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 3px solid #0058F5;
+  color: #1C1512;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.span{
+  background: #0058F5;
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+button:hover span {
+  width: 0%;
+}
+button:hover{
+}
+.h1 {
+  color: #1C1512;
+}
